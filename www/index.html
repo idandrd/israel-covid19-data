@@ -12,7 +12,7 @@
     <title>Israel Covid-19 Data</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
 
     <!-- Custom fonts for this template -->
     <link
@@ -163,6 +163,56 @@
   </head>
 
   <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-trand fixed-top" id="mainNav">
+      <div class="container">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+          &nbsp;תפריט
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#confirmed-by-date"
+                >מקרים מאומתים לפי תאריך</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tests-by-date"
+                >מספר נבדקים לפי תאריך</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">Sample Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">Sample Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">Sample Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!-- Page Header -->
     <header class="masthead" style="background-image: url('img/home-bg.jpg')">
       <div class="overlay"></div>
@@ -193,7 +243,9 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-preview">
             <h2 class="post-title">
-              מקרים מאומתים לפי תאריך
+              <a href="#confirmed-by-date" id="confirmed-by-date">
+                מקרים מאומתים לפי תאריך
+              </a>
             </h2>
             <iframe
               title="Israel COVID-19 Confirmed Cases"
@@ -225,7 +277,9 @@
           <hr />
           <div class="post-preview">
             <h2 class="post-title">
-              מספר נבדקים לפי תאריך
+              <a href="#tests-by-date" id="tests-by-date">
+                מספר נבדקים לפי תאריך
+              </a>
             </h2>
             <iframe
               title="COVID-19 Tests Conducted"
@@ -289,7 +343,7 @@
           <hr />
           <div class="post-preview">
             <h2 class="post-title">
-              התפלגות גילאי החולים
+              <a href="#by-age" id="by-age"> התפלגות גילאי החולים</a>
             </h2>
             <iframe
               title="Cases Age Distribution"
@@ -351,14 +405,38 @@
             </script>
           </div>
           <hr />
-           <div class="post-preview">
+          <div class="post-preview">
             <h2 class="post-title">
               התפלגות גילאי חולים במצב קשה
             </h2>
-          <iframe title="Age Distribution of Severe Cases" aria-label="Column Chart" id="datawrapper-chart-mfs3S" src="https://datawrapper.dwcdn.net/mfs3S/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="340"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-</script>
-</div>
-          
+            <iframe
+              title="Age Distribution of Severe Cases"
+              aria-label="Column Chart"
+              id="datawrapper-chart-mfs3S"
+              src="https://datawrapper.dwcdn.net/mfs3S/1/"
+              scrolling="no"
+              frameborder="0"
+              style="width: 0; min-width: 100% !important; border: none;"
+              height="340"
+            ></iframe>
+            <script type="text/javascript">
+              !(function() {
+                "use strict";
+                window.addEventListener("message", function(a) {
+                  if (void 0 !== a.data["datawrapper-height"])
+                    for (var e in a.data["datawrapper-height"]) {
+                      var t =
+                        document.getElementById("datawrapper-chart-" + e) ||
+                        document.querySelector("iframe[src*='" + e + "']");
+                      t &&
+                        (t.style.height =
+                          a.data["datawrapper-height"][e] + "px");
+                    }
+                });
+              })();
+            </script>
+          </div>
+
           <div class="post-preview">
             <h2 class="post-title">
               מקור הדבקה
@@ -500,6 +578,40 @@
       </div>
     </footer>
 
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-toggle="modal"
+      data-target="#exampleModal"
+    >
+      מי אנחנו
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">מי אנחנו</h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              רות השקס - מדענית נתונים וביולוגית
+              <br />
+              עידן דרדיקמן - מהנדס תכנה ויועץ אבטחת מידע
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
