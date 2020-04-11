@@ -169,7 +169,7 @@
 
   <body>
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/home-bg.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -246,6 +246,25 @@
               aria-label="Interactive line chart"
               id="datawrapper-chart-Ebvuh"
               src="https://datawrapper.dwcdn.net/Ebvuh/8/"
+              scrolling="no"
+              frameborder="0"
+              style="width: 0; min-width: 100% !important; border: none;"
+              height="400"
+            ></iframe>
+          </div>
+          <hr />
+
+          <div class="post-preview">
+            <h2 class="post-title">
+              <a id="deaths-age-dist" href="#deaths-age-dist">
+                התפלגות גילאי הנפטרים
+              </a>
+            </h2>
+            <iframe
+              title="Deaths Age Distribution"
+              aria-label="Column Chart"
+              id="datawrapper-chart-qah6q"
+              src="https://datawrapper.dwcdn.net/qah6q/1/"
               scrolling="no"
               frameborder="0"
               style="width: 0; min-width: 100% !important; border: none;"
@@ -351,9 +370,6 @@
             ></iframe>
           </div>
           <hr />
-         
-
-         
         </div>
       </div>
     </div>
@@ -403,9 +419,9 @@
 
     <!-- Datawrapper JavaScript -->
     <script type="text/javascript">
-      !(function() {
+      !(function () {
         "use strict";
-        window.addEventListener("message", function(a) {
+        window.addEventListener("message", function (a) {
           if (void 0 !== a.data["datawrapper-height"])
             for (var e in a.data["datawrapper-height"]) {
               var t =
