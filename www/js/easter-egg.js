@@ -12,7 +12,7 @@
   }
 
   function preLoadImage() {
-    if (easterEggCounter == 2) {
+    if (easterEggCounter == 1) {
       const img = new Image();
       img.src = imageUrl;
     }
