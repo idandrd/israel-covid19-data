@@ -1,6 +1,8 @@
 # 📈 Israel Covid-19 Data
 **Free for use data of COVID19 spread in Israel, based on confirmed [updates](https://t.me/MOHreport) from the Israeli Ministry of Health.**
 
+You're welcome to visit our website for graphical presentation of the data >> https://covid19data.co.il
+
 ## What's in the Data?
 Our data resides in CSV format to be easily parsed by any syste.
 
