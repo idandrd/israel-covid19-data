@@ -4,9 +4,9 @@
 You're welcome to visit our website for graphical presentation of the data >> https://covid19data.co.il
 
 ## What's in the Data?
-Our data resides in CSV format to be easily parsed by any syste.
+Our data resides in CSV format to be easily parsed by any system.
 
-The main files are:
+The main files:
 
 File Name | Fields | Update Policy 
 ----------|--------|--------------
@@ -16,6 +16,6 @@ File Name | Fields | Update Policy
 [CityDataPer100K.csv](https://github.com/idandrd/israel-covid19-data/blob/master/CityDataPer100K.csv) | City, Population, for each date the number of confirmed cases per 100K people | Upon update from MOH, usually once in 2 days |
 [Age Distribution.csv](https://github.com/idandrd/israel-covid19-data/blob/master/Age%20Distribution.csv) | Age group, Number of Cases, Rate per 100K people | Upon update from MOH
 [Deaths Age Distribution.csv](https://github.com/idandrd/israel-covid19-data/blob/master/Deaths%20Age%20Distribution.csv) | Age group Number of Deaths | Upon update from MOH
-[Corona-Deaths](https://github.com/idandrd/israel-covid19-data/blob/master/Corona-Deaths.csv) | index, Age, Sex, Hospital, City | Upon update from MOH
+[Corona-Deaths](https://github.com/idandrd/israel-covid19-data/blob/master/Corona-Deaths.csv) | index, Age, Hospital, Sex and the City | Upon update from MOH
 
 The rest of the files are pared from the files mantioned above for internal use in our website.
