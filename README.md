@@ -18,4 +18,6 @@ File Name | Fields | Update Policy
 [Deaths Age Distribution.csv](https://github.com/idandrd/israel-covid19-data/blob/master/Deaths%20Age%20Distribution.csv) | Age group Number of Deaths | Upon update from MOH
 [Corona-Deaths](https://github.com/idandrd/israel-covid19-data/blob/master/Corona-Deaths.csv) | index, Age, Hospital, Sex and the City | Upon update from MOH
 
-The rest of the files are pared from the files mantioned above for internal use in our website.
+The rest of the files are pared from the files mantioned above for internal use in our website.**Idan Dardikman** - Software engineer and information security consultant
+
+Enjoy our work? come say hey on [twitter](https://twitter.com/iDardikman)
