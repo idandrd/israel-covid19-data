@@ -27,7 +27,7 @@ Our data is free for use, and is used by private and public entities. Among othe
 - [The Israeli Public Broadcasting Corporation](https://www.kan.org.il/), KAN 11 - תאגיד השידור כאן 11
 - The Israeli Ministry of Defense - משרד הביטחון
 
-If you use our data we'd love to [hear from you](https://twitter.com/iDardikman)! This keeps us motivated!
+If you use our data we'd love to [hear from you](https://twitter.com/iDardikman)! This keeps us motivated.
 
 ## About us
 
