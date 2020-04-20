@@ -20,7 +20,7 @@ File Name | Fields | Update Policy
 
 The rest of the files are pared from the files mantioned above for internal use in our website.
 
-## Who Uses Our Graphs and Data
+## Who Uses Our Data
 Our data is free for use, and is used by private and public entities. Among others, our uses include:
 - [Our World in Data](https://ourworldindata.org/coronavirus)
 - [Globes Financial Newspaper](https://www.globes.co.il/news/article.aspx?did=1001324612) - עיתון גלובס
